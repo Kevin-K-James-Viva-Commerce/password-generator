@@ -1,11 +1,116 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 .container {
-    width: 550px;
-height: 550px;
-top: 64px;
-left: 642px;
+  width: 550px;
+  height: 550px;
+  top: 64px;
+  background: #1f2937;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px;
 }
 
+.heading {
+  width: 354px;
+  height: 80px;
+  top: 115px;
+  font-family: Karla;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
 
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #111827;
+}
+
+.white-heading {
+  color: #f9fafb;
+}
+
+.green-heading {
+  color: #34d399;
+}
+
+.sub-heading {
+  width: 372px;
+  height: 28px;
+  top: 205px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d5d4d8;
+}
+
+.btn {
+  width: Hug (191px);
+  height: Hug (42px);
+  top: 284px;
+  padding: 9px, 17px, 9px, 15px;
+  border-radius: 6px;
+  gap: 12px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+}
+
+.btn-text {
+  width: 159px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.line {
+  width: 546px;
+  top: 361px;
+  rotate: -0;
+
+  border: 1px solid #2f3e53;
+  margin: 30px auto;
+}
+
+.display-passwords {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.password-container {
+    width: 211px;
+    height: 39px;
+    top: 396px;
+  
+    border-radius: 6px;
+    background: #273549;
+    margin: auto;
+    
+}
+
+.password-text {
+  width: 192px;
+  height: 32px;
+  top: 400px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #55f991;
+  margin: auto;
+}
